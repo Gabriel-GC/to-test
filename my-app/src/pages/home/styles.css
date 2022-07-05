@@ -1,5 +1,5 @@
 .container{
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   min-height: 100vh;
   padding: 50px 40px;
@@ -20,4 +20,17 @@
   display: flex;
   align-items: flex-end;
   margin-top: 2rem;
+}
+
+
+@media only screen and (max-width: 789px){
+
+  .container{
+    padding: 40px 10px;
+  }
+
+  .search-container h2{
+    font-size: 24px;
+  }
+
 }
