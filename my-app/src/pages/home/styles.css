@@ -1,0 +1,23 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 50px 40px;
+}
+
+.search-container{
+  margin-bottom:  30px;
+}
+
+.notfound{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.button-container{
+  min-width: 100px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
